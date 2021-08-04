@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    box-shadow: 0px 15px 30px 15px rgba(34, 60, 80, 0.2);
+    padding: 30px;
+}
+form div {
+    padding-bottom: 15px;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+h2{
+    color: #4f9dff;
+    margin-bottom: 20px;
+}
+.form_title{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+form input{
+    width: 100%;
+    border-radius:5px;
+    border:1px solid #2c2c2c;
+    height: 30px;
+}
+form input[type='submit']{
+    background-color: #4f9dff;
+    color: #fff;
+    border: none;
+}
+.password_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 0;
+}
+.forgot{
+    font-weight: bold;
+    font-size: 12px;
+}
+form input[type='checkbox']{
+    width: initial;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+a{
+    color: #4f9dff;
+    text-decoration: none;
+}
+.google{
+    font-size: 14px;
+    font-weight: bold;
+}
+.signup{
+    font-size: 12px;
+    margin-top: 30px;
+}
